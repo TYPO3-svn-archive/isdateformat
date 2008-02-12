@@ -1,0 +1,7 @@
+# cat=plugin.tx_indexedsearch: Extras; type=string; label=Date format for creation date/time:Date format specification. See PHP date() function for details. If empty, uses TYPO3 date format defined in Install tool
+plugin.tx_indexedsearch.createdDateFormat = d.m.Y
+# cat=plugin.tx_indexedsearch: Extras; type=string; label=Date format for modification date/time:Date format specification. See PHP date() function for details. If empty, uses TYPO3 date format defined in Install tool
+plugin.tx_indexedsearch.modifiedDateFormat = d.m.Y
+# cat=plugin.tx_indexedsearch: Extras; type=options[date()=date,strftime()=strftime]; label=Date format mode:If "date()", use date() PHP function (default). If "strftime()", use strftime() function (better international support)
+plugin.tx_indexedsearch.dateFormatMethod = date
+

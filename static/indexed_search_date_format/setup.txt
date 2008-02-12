@@ -1,0 +1,8 @@
+# Date format for created date/time
+plugin.tx_indexedsearch.createdDateFormat = {$plugin.tx_indexedsearch.createdDateFormat}
+
+# Date format for modified date/time
+plugin.tx_indexedsearch.modifiedDateFormat = {$plugin.tx_indexedsearch.modifiedDateFormat}
+
+# Date format method
+plugin.tx_indexedsearch.dateFormatMethod = {$plugin.tx_indexedsearch.dateFormatMethod}
